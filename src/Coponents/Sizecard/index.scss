@@ -1,0 +1,27 @@
+.taadel {
+    padding-top: 5rem;
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding-top: 0rem;
+        border: none;
+
+        button {
+            width: 20%;
+            height: 2rem;
+            border: 1px solid black;
+            border-radius: 10px;
+            align-content: center;
+
+            &:hover {
+                background-color: black;
+                color: white;
+                border: 3px solid pink;
+
+            }
+        }
+    }
+}

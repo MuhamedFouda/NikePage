@@ -1,0 +1,21 @@
+.Footerimg{
+    width: 30%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: small;
+    .cont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 10rem;
+        height: 3rem;
+
+    }
+    img{
+        width: 3rem;
+        height: 3rem;
+    }
+}

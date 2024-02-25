@@ -1,0 +1,51 @@
+.leftside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    .text{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 30%;
+        gap: .7rem;
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        h1{
+            span{
+                text-decoration: line-through;
+            }
+        }
+
+    }
+    .pic{
+        position: relative;
+        height: 80vh;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        img{
+            height:37rem;
+            width: 95%;
+        }
+        .wipebutton{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: .5rem;
+            z-index: 1;
+            position: absolute;
+            bottom: 2rem;
+            right: 1rem;
+            button{
+                &:hover{
+                    background-color: gray;
+                    color: red;
+                }
+            }
+        }
+    }
+}
